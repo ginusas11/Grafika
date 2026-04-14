@@ -14,13 +14,14 @@ typedef struct Color{
 	Uint8 r, g, b;
 } Color;
 
+Color random_color(void);
 typedef struct Circle
 {
 	double x;
 	double y;
 	double radius;
 	Color color;
-
+	
 	int steps;
 	double angle_step;
 	double max_segment_length;
@@ -29,6 +30,8 @@ typedef struct Circle
 typedef struct Screen{
 	int width;
 	int height;
+	SDL_Window* window;
+    SDL_Renderer* renderer;
 } Screen;
 
 typedef struct Point {
@@ -48,6 +51,7 @@ typedef enum{
 void set_circle_data(Circle* circle, double x, double y, double radius, Color c, int s, double a_s, double m_s_l);
 
 void draw_circle(Screen* screen, Circle* circle, MODE mode);
+
 /**
  * Calculate the area of the circle.
  */
