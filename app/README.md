@@ -22,3 +22,7 @@ Tervezett elemek :
 minimum 2-3 különböző torony : A tornyokat úgy szeretnénk kialakítani, hogy mindegyik másféle szerepet töltsön be, például az egyik lassan lő, de nagyon erőset, a másik pedig gyorsan, de keveset sebez.
 minimum 2 féle választható fegyver : Az egyik fegyvernek szeretnénk fizikai sebzést adni, és tudományosabb kinézetet, a másiknak pedig mágikus sebzést egy kicsit Fantasy-sabb kinézettel.
 minimum 2 ellenféltípus : Az ellenfeleknek különböző tulajdonságai lesznek, például magas és gyors, de gyengébb, illetve alacsony, lassú és szívós. Ha belefér az időbe akkor azt is szeretnénk majd megcsinálni, hogy némelyik ellenfélnek nagyobb legyen az ellenállása a mágiával szemben, némelyiknek meg a fizikai sebzéssel szemben.
+
+Saját rész:
+A tudós karakter megalkotása blenderben, illetve a hozzá tartozó torony/tornyok elkészítése szintén blenderben.
+A fő menü leprogramozása.
